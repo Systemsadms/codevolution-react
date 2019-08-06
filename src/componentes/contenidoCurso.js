@@ -42,7 +42,32 @@
 		Reutilizar Funciones 
 		Ejemplo contadores
 
+		ClickCounterTwo.js
+		HoverCounterTwo.js
+		User.js
+		Counter.js
+		app.js
+		<Counter 
+      	render ={(count, incrementCount) => (
+      		<ClickCounterTwo count={count} incrementCount={incrementCount}/>
+      	)} 
+      />
+      <Counter 
+      	render ={(count, incrementCount) => (
+      		<HoverCounterTwo count={count} incrementCount={incrementCount}/>
+      	)} 
+      />
+
+      Ejercicio No completado por error que no conozco
+
+
+
 38,39,40) Contex (Repasar y ejercitar)
+			userContext.js
+			ComponentC.js
+			ComponentE.js
+			ComponentF.js
+		El ejercicio esta divido en dos partes, pasando el valor y usando el contexto
 
 
 el universo mecanico
